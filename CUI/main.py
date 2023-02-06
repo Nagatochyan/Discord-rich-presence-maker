@@ -1,5 +1,9 @@
 from pypresence import Presence
 import time
+import os
+os.system("discord rich presence maker")
+clear = lambda: os.system('cls')
+clear()
 content=input("内容：")
 subcontent=input("細かい説明:")
 timeornot=input("プレイ時間を追加しますか？(y/n):")
